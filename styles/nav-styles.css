@@ -1,0 +1,39 @@
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#751b4a+1,ffffff+99&1+0,0+100 */
+/*background: -moz-radial-gradient(center, ellipse cover, rgba(117,27,74,1) 0%, rgba(117,27,74,0.99) 1%, rgba(255,255,255,0.01) 99%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+/*background: -webkit-radial-gradient(center, ellipse cover, rgba(117,27,74,1) 0%,rgba(117,27,74,0.99) 1%,rgba(255,255,255,0.01) 99%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+/*background: radial-gradient(ellipse at center, rgba(117,27,74,1) 0%,rgba(117,27,74,0.99) 1%,rgba(255,255,255,0.01) 99%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#751b4a', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background-image:linear-gradient(rgba(135,135,155,0.6), rgba(135,135,155,0.6)) , url("./img/resonancia1.jpg");
+background-size: 100% 100%;
+}
+/*
+.nav-custom10{
+    background-color: #751b4a ;
+    font-family: 'Libre Baskerville', serif;
+    box-shadow:   2px 2px 20px #b23030 INSET ;
+    }
+ */
+
+
+.logo{
+     height: 50px;
+     width: 50px;
+ }
+ .iso{
+     margin-left: 10px;
+ }
+ .nav-custom10{
+    background-image: linear-gradient(rgb(135,135,155),rgb(200,200,200), rgb(135,135,155));
+font-family: 'Libre Baskerville', serif;
+box-shadow: 2px 2px 20px rgba(140,30,80,.5) inset ;
+}
+
+.nav-link{
+    color: #88134a;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: black;
+    font-weight: lighter;
+}
