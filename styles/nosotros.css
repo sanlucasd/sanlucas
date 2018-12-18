@@ -1,0 +1,37 @@
+#accordion{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.card-header{
+    background-image: linear-gradient(rgb(135,135,155),rgb(200,200,200), rgb(135,135,155));
+    font-family: 'Libre Baskerville', serif;
+    box-shadow: 2px 2px 20px rgba(140,30,80,.5) inset ;
+    
+}
+.card-header h5{
+    color: #88134a;
+}
+
+
+.sectionbig{
+    
+  background-color: rgba(255,255,255,0.6);
+  color:#88134a;
+  padding-top: 30px ;
+  padding-left: 25%;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+
+}
+
+.sectionbig p {
+   
+    text-align: justify;
+    width: 60%;
+   
+}
+
+
