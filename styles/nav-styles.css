@@ -24,13 +24,19 @@ background-size: 100% 100%;
      margin-left: 10px;
  }
  .nav-custom10{
-    background-image: linear-gradient(rgb(135,135,155),rgb(200,200,200), rgb(135,135,155));
+     position: fixed;
+     z-index: 99;
+     width: 100%;
+     top:0;
+     background-color:#88134a;
+ /*   background-image: linear-gradient(rgb(135,135,155),rgb(200,200,200), rgb(135,135,155));*/
 font-family: 'Libre Baskerville', serif;
-box-shadow: 2px 2px 20px rgba(140,30,80,.5) inset ;
+box-shadow: 2px 2px 20px rgba(0,0,0,.5) inset ;
+
 }
 
 .nav-link{
-    color: #88134a;
+    color: white;
     font-weight: bold;
 }
 .nav-link:hover{
