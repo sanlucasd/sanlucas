@@ -2,25 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Condiment" rel="stylesheet"> 
-    <link rel="stylesheet" href="styles/nav-styles.css">
+    <link rel="stylesheet" href="styles/nav2.css">
+    <link rel="stylesheet" href="styles/main2.css">
+
+    
+    <script src="scripts/nav.js"></script>
+  <!--  <link rel="stylesheet" href="styles/nav-styles.css">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home.css">-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>San Lucas Diagnostico</title>
 </head>
 <body>
+  	<header>
+        <div class="menu_bar">
+          <a href="#" class="bt-menu"><span class="icon-list2"></span>Menu</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#"><span class="icon-house"></span>Inicio</a></li>
+            <li><a href="#"><span class="icon-suitcase"></span>Trabajos</a></li>
+            <li><a href="#"><span class="icon-rocket"></span>Proyectos</a></li>
+            <li><a href="#"><span class="icon-earth"></span>Servicios</a></li>
+            <li><a href="#"><span class="icon-mail"></span>Contactos</a></li>
+          </ul>
+        </nav>
+      </header>
 
-        <nav class="navbar  navbar-fixed-top nav-custom10" role="navigation">
+     <!--   <nav class="navbar  navbar-fixed-top nav-custom10" role="navigation">
                 
                 <div class="container navigation">
                 
                 <a class="navbar-brand" href="index.html">
-                              <img src="styles/img/logo19.png" class="logo" alt=""   />
+                       <img src="styles/img/logo19.png" class="logo" alt=""   />
                               <img src="styles/img/logo18.png" class="iso" alt="" width="130px" height="35px">
                 </a>
                       <ul class="nav nav-pills ">
@@ -40,41 +59,56 @@
                 
                 </div>
         </nav>
-
-
-<section id="section1" >
-  <a href="sede1.html">
-    <div class="sede" >
-      <img src="./styles/img/fondo1.jpg" alt="">
+      -->
+  <!--
+  <a href="sede1.html" id="sede1" class="col-md-3 a-sede" >
+    <div class="card-sede">
+     <img src="./styles/img/fondo1.jpg" alt="">
       <span>25 de mayo Nº 1941 <br> Tel: (376) 44-20908 <br> (376) 44-21083</span>
     </div>
   </a>
-  
-  <div class="sede">
+  <a href="sede1.html" id="sede2" class="col-md-3 a-sede" >
+ <div class="card-sede">
         <img src="./styles/img/boratti2.jpg" alt="">
         <span>Av. Mitre Nº 2330 <br>Tel: (376) 44-40273</span>
       </div>
-      <div class="sede">
-          <img src="./styles/img/cemeba1.png.jpg" alt="">
+    </div>      
+    </a>
+    <a href="sede1.html" id="sede3" class="col-md-3 a-sede">
+      <div class="card-sede">
+      <img src="./styles/img/cemeba1.png.jpg" alt="">
           <span>Buenos Aires Nº 1935 <br>Tel: (376) 44-22569</span>
         </div>
-        <div class="sede">
+    </a>
+    <a href="sede1.html" id="sede4" class="col-md-3 a-sede">
+        <div class="card-sede">
             <img src="./styles/img/rioja2.jpg" alt="">
             <span>La Rioja Nº 1456<br>Tel: (376) 443-4339 </span>
           </div>
-</section>
+-->
+<div id="section1"  >
+  <div class="card-sede" id="card-sede1"></div>
+  <div class="card-sede" id="card-sede2"></div>
+  <div class="card-sede" id="card-sede4"></div>
+  <div class="card-sede" id="card-sede3"></div>
+
+</div>
+   
+   
+   
+   
         <section id="two-columns">
           <div class="container">
             <div class="row">
             
               <div class="col-md-4 cont-2 col-cont2" >
-                <img src="./assets/images/especialidades.jpg" alt="" id="asset1">
+              <!--  <img src="./assets/images/especialidades.jpg" alt="" id="asset1">-->
               </div>
               <div class="col-md-4 cont-2 col-cont2">
-                <img src="./assets/images/recomendacion.jpg" alt="" id="asset2">
+              <!--<img src="./assets/images/recomendacion.jpg" alt="" id="asset2">-->
               </div>
               <div class="col-md-4 cont-2 col-cont2"> 
-                <img src="./assets/images/prerequisitos.jpg" alt="" id="asset3">
+                <!--<img src="./assets/images/prerequisitos.jpg" alt="" id="asset3">-->
               </div>
             
             </div>
@@ -84,9 +118,9 @@
         <section id="section3">
           <div class="container">
             <div class="row">
-              <div class="col-md-4 cont-3"><img src="./assets/images/resonancia.jpg" alt=""></div>
+       <!--       <div class="col-md-4 cont-3"><img src="./assets/images/resonancia.jpg" alt=""></div>
               <div class="col-md-4 cont-3"><img src="./assets/images/tomografia.jpg" alt=""></div>
-              <div class="col-md-4 cont-3"><img src="./assets/images/ecografia.jpg" alt=""></div>
+              <div class="col-md-4 cont-3"><img src="./assets/images/ecografia.jpg" alt=""></div>-->
             </div>
           </div>
 
@@ -95,8 +129,8 @@
         <section ID="section4">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 cont-4"><img src="./assets/images/consultasyturnos.jpg" alt=""></div>
-              <div class="col-md-6 cont-4"><img src="./assets/images/turnoswapp.png" alt=""></div>
+           <!--   <div class="col-md-6 cont-4"><img src="./assets/images/consultasyturnos.jpg" alt=""></div>
+              <div class="col-md-6 cont-4"><img src="./assets/images/turnoswapp.png" alt=""></div>-->
             </div>
           </div>
         </section>
@@ -104,9 +138,9 @@
         <section id="section5">
             <div class="container">
               <div class="row">
-                <div class="col-md-4 cont-5"><img src="./assets/images/experienciaycalidad.jpg" alt=""></div>
+                <!--<div class="col-md-4 cont-5"><img src="./assets/images/experienciaycalidad.jpg" alt=""></div>
                 <div class="col-md-4 cont-5"><img src="./assets/images/tecnologia.jpg" alt=""></div>
-                <div class="col-md-4 cont-5"><img src="./assets/images/hayequipo.jpg" alt=""></div>
+                <div class="col-md-4 cont-5"><img src="./assets/images/hayequipo.jpg" alt=""></div>-->
               </div>
             </div>
   

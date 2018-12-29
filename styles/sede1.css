@@ -15,11 +15,9 @@
 }
 
 .carousel-item img{
-    
     height: 400px;
 }
 .infoitem{
-    
     background-color:rgba(136, 19, 74, 0.8);
     box-shadow: 2px 2px 8px #000;
     border-radius: 15px;
@@ -27,12 +25,21 @@
 
 #sectionLocation{
     background-color: rgba(136, 19, 74, 0.8);
-    
-    
+    box-shadow: 2px 2px 20px rgba(0,0,0,.5) inset ;
+    padding-top: 15px;
+    padding-left: 25%;
+    padding-bottom:  30px;
 }
 #frameMap{
     margin-left: auto;
     margin-right: auto;
-    
   
+}
+
+
+#sectionLocation h4{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+  
+    margin-left: 30px;
 }
