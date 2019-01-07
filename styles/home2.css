@@ -1,19 +1,21 @@
-   
    .seccion{
+    position: relative;
     width: 100vw;
-    min-height: 20vw;
     margin-top: 20px;
+    margin-bottom: 20px;
     border: 1px solid gray;
-    
+    clear: both;
+    min-height: 55vh;
+    overflow: auto;
    }
-   #section1{
 
-    height: calc(20vw*1.2);
+    #section1 img{
+
+        height: calc(20vw*1.2);
     }
 
     .card-sede{
         width: 20vw;
-        height: calc(20vw*1.2);
         position: relative;
         background-image: none; 
         
@@ -54,6 +56,36 @@
         border-radius: 15px;
         color:white;
     }
+    
+    #section2 .sm{
+        display: none;
+    }
+    #section2 img{
+       
+        float: left;
+        margin-left: 20vw;
+        margin-right: auto;
+        width: 60vw;
+
+    }
+    #section2 .read-more{
+    display: block;
+        color:white;
+        position: absolute;
+        bottom: 7vh;
+        left: 33vw;
+        font-size: 4vh;
+        font-family: 'Lustria', 'Serif';
+        font-weight: bolder;
+  
+    }
+    #section2 .info-turnos{
+        display:none;
+
+    }
+    #section2 .read-more-sm{
+        display: none;
+    }
 
     
     @media screen and (max-width:800px ) {
@@ -63,10 +95,14 @@
             background-color: cyan;
             clear: both;
         }
+        #section1{
+            margin-top: 0px;
+           
+        }
         .card-sede{
             float:none;
             width: 100vw;
-            height: 15vh;
+            height: 18vh;
             background-repeat: no-repeat;
             background-size: 100% 100%;
             border-bottom: 5px solid #88134A;
@@ -99,6 +135,43 @@
             width: 100%;
             background-color:rgba(0, 0, 0, 0.3);
             box-shadow: 2px 2px 8px #000;
+            border-radius: 0px;
             
+        }
+        #section2{
+            background-color: #ebe0d9;
+        }
+        #section2 .bg{
+            display: none;
+        }
+        #section2 .sm{
+            display:block;
+            float: left;
+            margin-left: 0px;
+            width: 40vw;
+        }
+        #section2 .read-more{
+            display: none;
+      
+        }
+        #section2 .info-turnos{
+            display:block;
+            font-family: 'Roboto Mono',monospace;
+            color:green;
+            padding: 2%;
+            margin-left: 2%;
+            font-size: 2vh;
+            text-align: center;
+            font-weight: bolder;
+            
+            
+        }
+        #section2 .read-more-sm{
+            padding-top: 5%;
+            float: right;
+            width: 50vw;
+            margin-right: 5vw;
+            background-color: #ebe0d9;
+            display: block;
         }
     }

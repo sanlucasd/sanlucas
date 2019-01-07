@@ -16,8 +16,9 @@ header nav {
 	max-width:1000px;
 	margin:20px auto;
     background:#88134a;
-    font-family: 'Libre Baskerville', serif;
-box-shadow: 2px 2px 20px rgba(0,0,0,.5) inset ;
+    font-weight: bold;
+	box-shadow: 2px 2px 20px rgba(0,0,0,.5) inset ;
+	border-radius: 15px;
 }
  
 .menu_bar {
@@ -45,7 +46,12 @@ header nav ul li span {
 }
  
 header nav ul li a:hover {
-	background:#037E8C;
+	background: white;
+	color: #88134a;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px black inset ;
+	font-weight: bold;
+	font-size: 0.85em
 }
  
 
@@ -75,7 +81,7 @@ header nav ul li a:hover {
 		display:block;
 		padding:20px;
 		background:#88134a;
-        font-family: 'Libre Baskerville', serif;
+     /*   font-family: 'Libre Baskerville', serif;*/
         box-shadow: 2px 2px 20px rgba(0,0,0,.5) inset ;
 		color:#fff;
 		text-decoration:none;
