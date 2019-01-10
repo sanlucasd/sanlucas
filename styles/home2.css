@@ -93,7 +93,36 @@
             min-height: 15vh;
             width:100%;
             background-color: cyan;
+            margin-top: 0px;
+            margin-bottom: 0px;
             clear: both;
+        }
+        .seccion .logo{
+            margin-top: 5vw;
+            margin-left: 3vw;
+            width: 20vw;
+        }
+
+        .seccion .isologo{
+            margin-top: 5vw;
+            margin-left: 3vw;
+            width: 70vw;
+        }
+        #seccion0{
+            background-color: #88134A
+        }
+        .servicios-header{
+            padding-top: 3%;;
+            padding-left: 10%;
+            width: 100vw;
+            height: 10vh;
+            border: 1px solid black;
+        }
+     .li-serv{
+            float: left;
+            width: 20vw;
+            color:white;
+    
         }
         #section1{
             margin-top: 0px;
@@ -160,9 +189,11 @@
             color:green;
             padding: 2%;
             margin-left: 2%;
-            font-size: 2vh;
+            font-size: 1.5vh;
             text-align: center;
             font-weight: bolder;
+            background-color: white;
+          
             
             
         }
